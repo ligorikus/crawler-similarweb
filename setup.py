@@ -1,22 +1,15 @@
-from setuptools import setup
-import pkgutil
+from setuptools import setup, find_packages
 
 setup(
-    name='crawler-similarweb',
-    version='',
-    packages=['similarweb', 'similarweb.spiders'],
+    name='ligosimilar',
+    version='1.0',
+    packages=find_packages(),
     package_data={
-        'crawler-similarweb': ['domains.json']
+        'ligosimilar': ['domains.json']
     },
     entry_points={
-        'scrapy': ['settings = crawler-similarweb.settings']
+        'scrapy': ['settings = ligosimilar.settings']
     },
     zip_safe=False,
-    url='',
-    license='',
     author='ligo',
-    author_email='',
-    description=''
 )
-
-data = pkgutil.get_data("crawler-similarweb", "domains.json")

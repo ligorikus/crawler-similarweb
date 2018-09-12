@@ -9,7 +9,7 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'similarweb'
+BOT_NAME = 'ligosimilar'
 
 SPIDER_MODULES = ['similarweb.spiders']
 NEWSPIDER_MODULE = 'similarweb.spiders'
