@@ -3,6 +3,7 @@ For install scraper
 sudo ./install.sh
 
 List of domains in domains.json file
+
 For example:
 [
   "google.com",
